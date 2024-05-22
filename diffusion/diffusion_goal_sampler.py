@@ -388,6 +388,5 @@ class DiffusionGoalSampler:
 
 
 if __name__ == "__main__":
-    print("erdi_Test")
     tmp = DiffusionGoalSampler(state_dim=3, action_dim=3)
     tmp.test()
