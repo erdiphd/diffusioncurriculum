@@ -49,3 +49,17 @@ PointSpiralMaze-v0
 CUDA_VISIBLE_DEVICES=0 python outpace_train.py env=PointSpiralMaze-v0 aim_disc_replay_buffer_capacity=20000 save_buffer=true aim_discriminator_cfg.lambda_coef=50
 ```
 
+## Citation
+If you find this work useful, please consider citing: 
+```
+@inproceedings{
+sayar2024diffusionbased,
+title={Diffusion-based Curriculum Reinforcement Learning},
+author={Erdi Sayar and Giovanni Iacca and Ozgur S. Oguz and Alois Knoll},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=yRhrVaDOWE}
+}
+```
+
+
